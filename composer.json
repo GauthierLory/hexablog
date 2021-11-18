@@ -1,0 +1,13 @@
+{
+    "name": "gauth/07-hexablog",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "pestphp/pest": "^1.21",
+        "ramsey/uuid": "^4.2"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Domain\\": "Domain/"
+        }
+    }
+}
